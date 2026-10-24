@@ -1,0 +1,28 @@
+{
+  "name": "renew-ledger",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.1.2",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
